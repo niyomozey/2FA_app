@@ -1,15 +1,15 @@
 const Signup = ()=>{
     return (
-        <div>
-            <div>
-                <div>
-                    <h1>Signup Page</h1>
-                    <p>Provide your credentials to Signup.</p>
+        <div className="h-screen w-full flex justify-center items-center">
+            <div className="w-[40%] border-2 border-gray-300 rounded-lg">
+                <div className="w-full flex flex-col justify-center items-center">
+                    <h1 className="text-center text-[30px]">Signup Page</h1>
+                    <p className="text-center text-[20px]">Provide your credentials to Signup.</p>
                 </div>
-                <div>
-                    <input type="text" placeholder="Username" />
-                    <input type="password" placeholder="Password" />
-                    <button>Signup</button>
+                <div className="w-full flex flex-col justify-center items-center">
+                    <input className="w-[80%] border-2 border-gray-300" type="text" placeholder="Username" />
+                    <input className="mt-4 w-[80%] border-2 border-gray-300" type="password" placeholder="Password" />
+                    <button className="mt-4 w-[80%] border-2 bg-gray-300">Signup</button>
                 </div>
                 <div>
                     <p>Already have an account?</p>
