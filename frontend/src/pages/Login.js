@@ -2,16 +2,26 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div>
-      <div>
-        <div>
-          <h1>Login Page</h1>
-          <p>Provide your credentials to Login.</p>
+    <div className="h-screen w-full flex justify-center items-center">
+      <div className="w-[40%] border-2 border-gray-300 rounded-lg">
+        <div className="w-full flex flex-col justify-center items-center">
+          <h1 className="text-center text-[30px]">Login Page</h1>
+          <p className="text-center text-[20px]">
+            Provide your credentials to Sign In.
+          </p>
         </div>
-        <div>
-          <input type="text" placeholder="Username" />
-          <input type="password" placeholder="Password" />
-          <button>Login</button>
+        <div className="w-full flex flex-col justify-center items-center">
+          <input
+            className="w-[80%] border-2 border-gray-300"
+            type="text"
+            placeholder="Username"
+          />
+          <input
+            className="mt-4 w-[80%] border-2 border-gray-300"
+            type="password"
+            placeholder="Password"
+          />
+          <button className="mt-4 w-[80%] border-2 bg-green-300">Login</button>
         </div>
         <div>
           <p>Don't have an account?</p>
