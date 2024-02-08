@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <div className="h-screen w-full flex justify-center items-center">
       <div className="w-[40%] border-2 border-gray-300 rounded-lg">
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="w-full flex flex-col justify-center items-center pb-4">
           <h1 className="text-center text-[30px]">Login Page</h1>
           <p className="text-center text-[20px]">
             Provide your credentials to Sign In.
@@ -23,9 +23,9 @@ const Login = () => {
           />
           <button className="mt-4 w-[80%] border-2 bg-green-300">Login</button>
         </div>
-        <div>
+        <div className="w-full flex flex-col justify-center items-center m-4">
           <p>Don't have an account?</p>
-          <a href="/signup">Signup</a>
+          <a className="text-blue-500" href="/signup">Signup</a>
         </div>
       </div>
     </div>
